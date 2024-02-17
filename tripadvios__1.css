@@ -592,10 +592,11 @@ body {
     display: inline-block;
 }
 
-.Inside__Mobile__view__content__overall{
+.Inside__Mobile__view__content__overall {
 
     padding: 15px 15px 15px 15px;
 }
+
 .Mobile__view__content {
 
     display: flex;
@@ -614,17 +615,18 @@ body {
     border-radius: 15px;
 }
 
-.Mobile__view__title{
+.Mobile__view__title {
 
     margin: -40px 0px 0px 0px;
 }
 
-.Build{
+.Build {
 
     font-size: xxx-large;
     margin: 25px 0px 0px 0px
 }
-.Mobile__view__Decs{
+
+.Mobile__view__Decs {
 
     display: inline-flex;
     /* width: 90%; */
@@ -633,30 +635,32 @@ body {
     margin: 5px 0px 0px 0px;
 
 }
-.Descripition{
+
+.Descripition {
 
     margin: 0px 0px 0px 0px;
     font-size: 20px;
 }
 
-.MS__Mobile__image{
+.MS__Mobile__image {
     width: 70%
-
 }
 
 
-.Mobile__view__last__overll{
+.Mobile__view__last__overll {
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-top: 15px;
 }
-.Pin__image{
+
+.Pin__image {
 
     width: 15px;
     height: 15px;
 }
-.Start_AI__btn{
+
+.Start_AI__btn {
 
     display: flex;
     gap: 4px;
@@ -668,179 +672,109 @@ body {
     border: none;
 }
 
-.Start__btn{
+.Start__btn {
     font-size: larger;
-    
+
 
 }
 
 /* Full View Mobile css */
 
-.Full__view__mobile__image__overall{
+.Mobile__image {
+
+    display: none;
+}
+
+.Full__view__mobile__image__overall {
     display: none;
 }
 
 
 
 
-@media screen and (min-width:800px){
+@media screen and (min-width:800px) {
 
-.Trip__Mobile__image__overall{
+    .Trip__Mobile__image__overall {
 
-    display: none;
-}
+        display: none;
+    }
 
-.Mobile__image{
+    .Mobile__image {
 
-    display: flex;
-    justify-content: center;
-    position: relative; 
-    top: 35px;
-}
-
-.Min__size__mobile__image__1{
-    border-radius: 11px;
-    width: 100%;
-    background-color: #DACDFD;
-    margin: 0px 40px 0px 40px
-}
-
-
-.MS__Mobile__image__1{
-    position: relative;
-    width: 103%;
-    height: 105%;
-    top: -26px;
-   
-}
-
-
-.Full__view__mobile__image__overall{
-    display: flex;
-    position: absolute;
-    width: 35%;
-    top: 25px;
-    left: 60px;
-}
-
-.Mobile__view__content__1{
-
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
-
-.Powered__by__AI__1{
-    font-size: x-small;
-}
-
-.BETA__1{
-
-    padding: 5px 10px 3px 10px;
-    background-color: white;
-    border-radius: 15px;
-    font-size: x-small;
-}
-
-
-
-.Build__1{
-margin: 0px 0px 0px 0px;
-    width: 65%;
-}
-
-
-
-
-.Descripition__1{
-
-    width: fit-content;
-}
-
-
-.Pin__image__1{
-
-    width: 15px;
-    height: 15px;
-}
-.Start_AI__btn__1{
-
-    display: flex;
-    gap: 4px;
-    padding: 0px 30px 0px 30px;
-    border-radius: 37px;
-    background-color: #52327C;
-    color: white;
-    align-items: center;
-    border: none;
-}
-
-.Start__btn__1{
-    font-size: larger;
-    
-
-}
-}
-
-@media screen and (min-width:1000px){
-
-
-    .Mobile__image{
-max-width: 99%;
         display: flex;
         justify-content: center;
-        position: relative; 
+        position: relative;
+        top: 35px;
     }
 
-    .Full__view__mobile__image__overall{
-        font-size: 18px;
-        left: 185px;
+    .Min__size__mobile__image__1 {
+        border-radius: 11px;
+        width: 100%;
+        background-color: #DACDFD;
+        margin: 0px 40px 30px 40px
+    }
+
+
+    .MS__Mobile__image__1 {
+        position: relative;
+        width: 95%;
+        height: 105%;
+        top: -26px;
+
+    }
+
+
+    .Full__view__mobile__image__overall {
         display: flex;
         position: absolute;
-        top: 66px;
+        width: 35%;
+        top: 25px;
+        left: 60px;
     }
 
-    .Mobile__view__content__1{
+    .Mobile__view__content__1 {
 
         display: flex;
         gap: 10px;
         align-items: center;
     }
-    
-    .Powered__by__AI__1{
+
+    .Powered__by__AI__1 {
         font-size: x-small;
     }
-    
-    .BETA__1{
-    
+
+    .BETA__1 {
+
         padding: 5px 10px 3px 10px;
         background-color: white;
         border-radius: 15px;
         font-size: x-small;
     }
-    
-    
-    
-    .Build__1{
-    margin: 0px 0px 0px 0px;
-       max-width: 60%;
+
+
+
+    .Build__1 {
+        margin: 0px 0px 0px 0px;
+        width: 65%;
     }
-    
-    
-    .Descripition__1{
-    
-        max-width:  70%;
-        
+
+
+
+
+    .Descripition__1 {
+
+        width: fit-content;
     }
-    
-    
-    .Pin__image__1{
-    
+
+
+    .Pin__image__1 {
+
         width: 15px;
         height: 15px;
     }
-    .Start_AI__btn__1{
-    
+
+    .Start_AI__btn__1 {
+
         display: flex;
         gap: 4px;
         padding: 0px 30px 0px 30px;
@@ -850,13 +784,327 @@ max-width: 99%;
         align-items: center;
         border: none;
     }
-    
-    .Start__btn__1{
+
+    .Start__btn__1 {
         font-size: larger;
-        
-    
+
+
     }
+}
+
+@media screen and (min-width:1000px) {
+
+
+    .Mobile__image {
+        max-width: 99%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    .Full__view__mobile__image__overall {
+        font-size: 18px;
+        left: 185px;
+        display: flex;
+        position: absolute;
+        top: 66px;
+    }
+
+    .Mobile__view__content__1 {
+
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .Powered__by__AI__1 {
+        font-size: x-small;
+    }
+
+    .BETA__1 {
+
+        padding: 5px 10px 3px 10px;
+        background-color: white;
+        border-radius: 15px;
+        font-size: x-small;
+    }
+
+
+
+    .Build__1 {
+        margin: 0px 0px 0px 0px;
+        max-width: 60%;
+    }
+
+
+    .Descripition__1 {
+
+        max-width: 70%;
+
+    }
+
+
+    .Pin__image__1 {
+
+        width: 15px;
+        height: 15px;
+    }
+
+    .Start_AI__btn__1 {
+
+        display: flex;
+        gap: 4px;
+        padding: 0px 30px 0px 30px;
+        border-radius: 37px;
+        background-color: #52327C;
+        color: white;
+        align-items: center;
+        border: none;
+    }
+
+    .Start__btn__1 {
+        font-size: larger;
+
+
+    }
+
+
+}
+
+
+
+/* Travel Setion */
+
+.Travell_Overall_sec {
+    padding: 2rem 2rem 0rem 1rem;
+
+}
+
+.Trip_Travell_sec {}
+
+.TravelL_title {
+
+    font-size: x-large;
+    margin: 0rem 0rem 0rem 0rem;
+}
+
+.Travell_desc {
+
+    font-size: large;
+    margin: 1rem 0rem 0rem 0rem;
+    color: grey;
+}
+
+.Travell_img_continer {
+    display: flex;
+    padding: 1rem 0rem 0rem 0rem;
+    overflow-x: auto;
+    gap: 20px;
+    /* max-width: 111%;
+    white-space: nowrap; */
+    cursor: pointer;
+}
+
+.Travell_img_continer::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
+}
+
+.Travell_sec1 {
+
+    position: relative;
+}
+
+.Top_dest_img {
+
+    width: 250px;
+
+    border-radius: 10px;
+
+
+}
+
+.Top_dest_img:hover {
+
+    opacity: 0.8;
+}
+
+.Top_dest_1 {
+    position: absolute;
+    margin: 0rem 0rem 0rem 0rem;
+    bottom: 6px;
+    padding: 1rem 61px 1rem 1rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 11px;
+}
+
+.Top_dest_2 {
+    position: absolute;
+    margin: 0rem 0rem 0rem 0rem;
+    bottom: 6px;
+    padding: 1rem 8px 1rem 1rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 11px;
+}
+
+.Top_dest_3 {
+    position: absolute;
+    margin: 0rem 0rem 0rem 0rem;
+    bottom: 4px;
+    padding: 1rem 50px 1rem 1rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 11px;
+}
+
+.Top_dest_4 {
+    position: absolute;
+    margin: 0rem 0rem 0rem 0rem;
+    bottom: 6px;
+    padding: 1rem 30px 1rem 1rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 11px;
+}
+
+.Top_dest_5 {
+    position: absolute;
+    margin: 0rem 0rem 0rem 0rem;
+    bottom: 6px;
+    padding: 1rem 20px 1rem 1rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 11px;
+}
+
+.right_left_arrow {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.right_arrow {
+
+    width: 20px;
+}
+
+.left_arrow {
+
+    width: 20px;
+}
+
+
+@media screen and (min-width:750px) {
+
+    .Travell_Overall_sec {
+
+        padding: 2rem 4rem 0rem 3rem
+    }
+
+}
+
+
+/* Tiur section css */
+
+
+.Tour__section__overall {
+
+    padding: 0rem 2rem 0rem 1rem;
+
+}
+
+.Tour_section_title {
+
+    margin: 0rem 0rem 0rem 0rem;
+}
+
+.tour_title {
+
+    margin: 1rem 0rem 0rem 0rem;
+
+}
+
+.tour_desc {
+
+    margin: 10px 0rem 0rem 0rem;
+    font-size: large;
+}
+
+.Tour_image_container {
+    display: flex;
+    padding: 1rem 0rem 0rem 0rem;
+    overflow-x: auto;
+    gap: 51px;
+    cursor: pointer;
+
+}
+
+.Tour_image_container::-webkit-scrollbar {
+    display: none;
+}
+
+.Tour_img_1_overall {
+    width: 260px;
+    position: relative;
     
 
 }
 
+.Tour_image_1 {
+
+    width: 290px;
+    border-radius : 10px
+}
+
+.Tour_desc_1 {
+
+    margin: 0rem 0rem 0rem 0rem;
+}
+
+.Tour_1_desc,
+.tour_1_rate,
+.tour_1_price {
+
+    margin: 4px 0rem 0rem 0rem;
+    font-size: small;
+
+}
+
+
+
+.fav_btn{
+    background-color: white;
+    width: 25px;
+    padding: 8px;
+    position: absolute;
+    top: 6px;
+    right: -16px;
+    border-radius: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:750px) {
+
+    .Tour__section__overall {
+
+        padding: 2rem 4rem 0rem 3rem
+    }
+
+}
