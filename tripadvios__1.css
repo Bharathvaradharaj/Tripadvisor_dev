@@ -1366,15 +1366,21 @@ body {
 }
 
 .Best_award_overall_1{
+    /* display: flex;
+    align-items: flex-end;
+    justify-content: space-around; */
+}
 
-    /* display: flex; */
+.best_title_overall{
+    padding: 4rem 5rem 4rem 2rem;
+
 }
 
 .Best_award_s1{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
+    align-self: center;
 }
 
 .best_awards_log{
@@ -1384,22 +1390,47 @@ body {
 
 .best_award_1{
     margin: 5px 0rem 0rem 0rem;
+    font-size: 37px;
+    /* line-height: 50px; */
+    font-style: normal;
 
 }
 
 .best_award_2{
 
+    font: message-box;
     margin: 5px 0rem 0rem 0rem;
+    font-size: 20px;
+
 }
 
 .winners_btn{
 
 
     margin: 10px 0rem 0rem 0rem;
+    background-color: black;
+    color: white;
+    padding: 8px 13px 8px 16px;
+    border-radius: 34px;
+
 }
 
 
+.best_award_img{
+
+    display: flex;
+}
+
 .best_award_img_1{
 
-    width: 50px;
+    width: 428px;
+}
+
+@media screen  and (min-width:650px){
+
+    
+    .Best_award_overall_1{
+
+        display: flex;
+    }
 }
