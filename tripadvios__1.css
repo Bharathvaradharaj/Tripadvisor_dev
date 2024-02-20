@@ -1545,83 +1545,251 @@ body {
 .footer_section_overall {
 
     background-color: #FAF1ED;
-    margin: 3rem 0rem 0rem 0rem;
-    
+    padding: 0rem 0rem 1rem 0rem;
+    margin-top: 3rem;
+
 }
 
-.footer_insid_overall{
+.footer_insid_overall {
     padding: 0rem 0rem 0rem 2rem;
 }
 
-.About_Tripadvisor_overall{
+
+
+
+
+.About_Tripadvisor_overall {
     display: flex;
     align-items: center;
     gap: 20px;
+
 }
-.About_Trip_title{
+
+.About_Trip_title {
 
     color: #333333;
     cursor: pointer;
-    
+
 }
 
-.About_Trip_title:hover{
+
+
+.list_about_trip{
+    display: none;
+}
+
+.About_Trip_title:hover {
 
     text-decoration: underline;
 
 
 }
-.plus_image{
-color: black;
+
+.plus_image {
+    color: black;
 
     width: 10px;
 }
 
 
-.button_overall{
+@media screen and (min-width:1000px) {
 
+
+    .All_about_section {
+
+        display: flex;
+        gap: 30px;
+
+    }
+
+.About_Tripadvisor_overall {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 2rem 0rem 0rem 0rem;
-    padding: 0rem 1rem 0rem 0rem;
+    align-items: normal;
+    gap: 0px;
+    flex-direction: column;
 }
 
-.btn_inr button{
-    padding: 7px 230px 7px 9px;
+
+.About_Trip_title p{
+
+    margin: 2rem 0rem 0rem 0rem ;
+    font-size: 20px;
+
+}
+
+.list_about_trip{
+    font-size: medium;
+    display: block;
+}
+
+.list_about_trip p{
+    margin: 6px 0px 0px 0px;
+
+}
+    .plus_image{
+        display: none;
+    }
+    
+
+
+    
+
+    .Business_Get_app_section{
+
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+    
+
+    .Get_app_text {
+        margin-top: 0px !important;
+    }
+}
+
+
+
+.button_overall {
+    margin-top: 25px;
+}
+
+.btn_inr_overall {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.btn_india_overall {
+    width: 100%;
+
+}
+
+.INR_btn_inside {
+
+    padding: 6px 13px 6px 8px;
+    align-items: center;
+    display: flex;
+    width: 92%;
+    border-radius: 10px;
     background-color: white;
-    border: solid black 2px;
-    border-radius: 12px;
-
+    border: solid gray 2.1px;
 }
 
+.India_btn_inside {
 
-.btn_india button{
-
-
-    padding: 7px 230px 7px 9px;
+    padding: 6px 13px 6px 8px;
+    align-items: center;
+    display: flex;
+    width: 92%;
+    border-radius: 10px;
     background-color: white;
-    border: solid black 2px;
-    border-radius: 12px;
+    border: solid gray 2.1px;
 }
 
-.btn_inr{
-    position: relative;
-}
+.inr_text,
+.india_text {
+    text-align: start;
+    flex-grow: 1;
+    font-weight: 700;
 
-.btn_india{
-    position: relative;
-}
-.dropdown_arrow_1,.dropdown_arrow_2{
 
-    width: 20px;
-    position: absolute;
-    right: 22px;
-    top: 7px;   
 }
 
 
-.all_social_media{
+.dropdown_arrow_1,
+.dropdown_arrow_2 {
+
+    width: 15px;
+}
+
+
+@media screen and (min-width:700px) {
+
+    .button_overall {
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+
+    }
+
+    
+
+    .INR_btn_inside {
+        padding: 6px 13px 6px 8px;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        border-radius: 10px;
+        background-color: white;
+        border: solid gray 2.1px;
+
+    }
+
+    .India_btn_inside {
+        padding: 6px 13px 6px 8px;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        border-radius: 10px;
+        background-color: white;
+        border: solid gray 2.1px;
+
+    }
+
+}
+
+
+@media screen and (min-width:1000px) {
+
+    .button_overall{
+
+        display: flex;
+        justify-content: flex-end;
+    }
+    .btn_inr_overall  {
+        margin-bottom: 15px;
+        width: 20%;
+    }
+    
+    .btn_india_overall {
+        width: 20%;
+    
+    }
+
+    .inr_text,
+.india_text {
+    text-align: start;
+    flex-grow: 1;
+    font-weight: 700;
+
+
+}
+  
+    .INR_btn_inside {
+        padding: 6px 13px 6px 8px;
+        align-items: center;
+        display: flex;
+        /* width: 0%; */
+        border-radius: 10px;
+        background-color: white;
+        border: solid gray 2.1px;
+
+    }
+
+    .India_btn_inside {
+        padding: 6px 13px 6px 8px;
+        align-items: center;
+        display: flex;
+        /* width: 100%; */
+        border-radius: 10px;
+        background-color: white;
+        border: solid gray 2.1px;
+
+    }
+
+}
+
+/* Social media css */
+.all_social_media {
 
     display: flex;
     gap: 20px;
@@ -1630,7 +1798,150 @@ color: black;
     justify-content: flex-end;
     padding: 0rem 2rem 0rem 0rem;
 }
-.facebook_icon{
+
+.facebook_icon {
 
     width: 20px;
 }
+
+
+
+
+
+
+
+
+/* Policy css */
+
+
+.policy_section_overall {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+}
+.trip_logo{
+    padding: 0rem 0rem 4rem 0rem;
+
+}
+.trip_logo_1 {
+    width: 50px;
+
+}
+
+.policy_license_1 {
+
+    font-size: small;
+}
+
+.policy_links {
+
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    padding: 0rem 1rem 0rem 0rem;
+}
+
+.links {
+    color: #545454;
+    font-weight: 600;
+}
+
+
+.trip_desc {
+
+    padding: 0rem 1rem 0rem 1rem;
+    color: #545454;
+    margin-bottom: 10px;
+    max-width: 94%;
+    margin: 0rem 0rem 0rem -3rem;
+}
+
+.desc_text {
+    font-size: small;
+   
+}
+
+
+
+@media screen and (min-width:1100px) {
+
+    .btn_social_policy_section{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    
+
+    .policy_section_overall{
+        order: 1;
+    }
+
+    .btn_social_section{
+        order: 2;
+        width: 60%;
+    }
+
+
+
+
+
+    .button_overall{
+
+        display: flex;
+        justify-content: flex-end;
+    }
+    .btn_inr_overall  {
+        margin-bottom: 15px;
+        width: 40%;
+    }
+    
+    .btn_india_overall {
+        width: 40%;
+    
+    }
+
+    .inr_text,
+.india_text {
+    text-align: start;
+    flex-grow: 1;
+    font-weight: 700;
+
+
+}
+  
+    .INR_btn_inside {
+        padding: 6px 13px 6px 8px;
+        align-items: center;
+        display: flex;
+        /* width: 0%; */
+        border-radius: 10px;
+        background-color: white;
+        border: solid gray 2.1px;
+
+    }
+
+    .India_btn_inside {
+        padding: 6px 13px 6px 8px;
+        align-items: center;
+        display: flex;
+        /* width: 100%; */
+        border-radius: 10px;
+        background-color: white;
+        border: solid gray 2.1px;
+
+    }
+
+    /* .button_overall{
+        order: 2;
+    }
+
+    .all_social_media{
+        order: 3;
+    } */
+
+    /* .btn_social_section{
+        display: flex;
+    } */
+}
+
